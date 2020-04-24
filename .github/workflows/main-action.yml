@@ -1,0 +1,11 @@
+name: Main Action
+
+on: repository_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Perform action
+      run: |
+        echo "Missile hits the target."
