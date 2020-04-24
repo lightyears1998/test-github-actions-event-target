@@ -1,7 +1,7 @@
 name: Main Action
 
 on: repository_dispatch
-  types: [fire-missile]
+    types: [fire-missile]
 
 jobs:
   run:
