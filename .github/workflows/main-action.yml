@@ -1,9 +1,10 @@
 name: Main Action
 
 on: repository_dispatch
+  types: [fire-missile]
 
 jobs:
-  build:
+  run:
     runs-on: ubuntu-latest
     steps:
     - name: Perform action
